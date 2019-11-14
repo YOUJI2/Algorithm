@@ -2,7 +2,7 @@ package baekjoonAG;
 import java.util.Scanner;
 
 public class baek10819 {
-
+//fgfgfgfgf
 	static int max=0;
 	static boolean check =false;
 	static void swapArray(int ar[],int a, int b) {
