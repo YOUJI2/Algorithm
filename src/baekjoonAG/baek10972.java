@@ -3,7 +3,7 @@ package baekjoonAG;
 import java.util.Scanner;
 
 public class baek10972 {
-
+//dd
 //	static int swapcount =0;
 	static boolean check =false;
 	static void swapArray(int ar[],int a, int b) {

@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 public class baek11723 {
-//	static String checkstr="";
+//	static Strin checkstr="";
 	static int s = 0;
 	static void add(int x) {
 		s = s | ( 1 << x);

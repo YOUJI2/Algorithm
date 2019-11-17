@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class baek10971 {
 
-	
+//df
 	public static boolean next_permutation(int ar[]) {
 		
 		int i = ar.length-1;
