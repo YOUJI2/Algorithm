@@ -13,6 +13,11 @@ public class Main {
             }
         }
 
+        if(m == 1) {
+            System.out.println(2*n);
+            return;
+        }
+
         int cnt = 0;
         cnt += rowMetrixCnt(arr, n, m);
         cnt += colMetrixCnt(arr, n, m);
