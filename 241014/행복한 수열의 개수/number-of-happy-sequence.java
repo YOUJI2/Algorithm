@@ -37,9 +37,10 @@ public class Main {
                         cnt++;
                         break;
                     }
+                } else {
+                    continuousCnt = 1;
+                    continuousNum = arr[row][col];
                 }
-                continuousCnt = 1;
-                continuousNum = arr[row][col];
             }
         }
         return cnt;
@@ -58,9 +59,10 @@ public class Main {
                         break;
                     }
 
+                } else {
+                    continuousCnt = 1;                
+                    continuousNum = arr[row][col];
                 }
-                continuousCnt = 1;                
-                continuousNum = arr[row][col];
             }
         }
         return cnt;
