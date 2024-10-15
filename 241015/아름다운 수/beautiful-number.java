@@ -27,6 +27,7 @@ public class Main {
                 if(i == 1) chooseBeautiNum(n, k+1);
                 if(i == 2) chooseBeautiNum(n, k+2);
                 if(i == 3) chooseBeautiNum(n, k+3);
+                if(i == 4) chooseBeautiNum(n, k+4);
             }
         }
     }
