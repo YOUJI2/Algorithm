@@ -23,7 +23,7 @@ public class Main {
 
         if(k < n) {    
             //무조건 아름다운수가 되도록만 재귀를 타도록 한다.
-            for(int i=1;i<=n;i++) {
+            for(int i=1;i<=4;i++) {
                 if(i == 1) chooseBeautiNum(n, k+1);
                 if(i == 2) chooseBeautiNum(n, k+2);
                 if(i == 3) chooseBeautiNum(n, k+3);
