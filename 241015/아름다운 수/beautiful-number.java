@@ -1,11 +1,8 @@
 import java.util.*;
 public class Main {
-    public static List<Integer> list;
     public static int cnt=0;
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
-        list = new ArrayList<>();
         int n = sc.nextInt(); //자리 수 의미
 
         //1. 각 자리수는 1~4까지의 값을 갖는다.
@@ -22,13 +19,10 @@ public class Main {
         }
 
         if(k < n) {    
-            //무조건 아름다운수가 되도록만 재귀를 타도록 한다.
-            for(int i=1;i<=4;i++) {
-                if(i == 1) chooseBeautiNum(n, k+1);
-                if(i == 2) chooseBeautiNum(n, k+2);
-                if(i == 3) chooseBeautiNum(n, k+3);
-                if(i == 4) chooseBeautiNum(n, k+4);
-            }
+            chooseBeautiNum(n, k+1);
+            chooseBeautiNum(n, k+2);
+            chooseBeautiNum(n, k+3);
+            chooseBeautiNum(n, k+4);
         }
     }
 }
