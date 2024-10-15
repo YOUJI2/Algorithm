@@ -44,11 +44,14 @@ public class Main {
         int max = 0;
         for(int i=0;i<n;i++) {
             for(int j=0;j<m;j++) {
-                if(i+3 > n || j+3 > m) continue;
-                int tromino1 = arr[i][j] + arr[i][j+1] + arr[i][j+2]; 
-                int tromino2 = arr[i][j] + arr[i+1][j] + arr[i+2][j];             
-                if(max < tromino1) max = tromino1;
-                if(max < tromino2) max = tromino2;
+                if(i+3 <= n) {
+                    int tromino2 = arr[i][j] + arr[i+1][j] + arr[i+2][j];             
+                    if(max < tromino2) max = tromino2;
+                }
+                if(j+3 <= m) {
+                    int tromino1 = arr[i][j] + arr[i][j+1] + arr[i][j+2]; 
+                    if(max < tromino1) max = tromino1;
+                }
             }
         }
         return max;
