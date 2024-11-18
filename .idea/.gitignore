@@ -5,6 +5,8 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+/AG2.iml
+
 ### STS ###
 .apt_generated
 .classpath
@@ -42,3 +44,10 @@ out/
 
 /logs
 nohub.out
+/git_toolbox_blame.xml
+/git_toolbox_prj.xml
+/material_theme_project_new.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+/workspace.xml
